@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import blog from './Blog';
 
 const reducers = combineReducers({
-    blog
+  blog,
 });
 
 export default reducers;
