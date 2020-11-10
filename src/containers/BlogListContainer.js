@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import BlogList from '../components/BlogList/BlogList';
+import BlogList from '../components/BlogList';
 import PropTypes from 'prop-types';
 import { fetchBlogs, fetchAll } from '../actions';
 import Pagination from '../common/Pagination';

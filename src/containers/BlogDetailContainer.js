@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchBlog } from '../actions';
-import BlogDetail from '../components/BlogDetail/BlogDetail';
+import BlogDetail from '../components/BlogDetail';
 
 class BlogDetailContainer extends Component {
   componentDidMount() {
